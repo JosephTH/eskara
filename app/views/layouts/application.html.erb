@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>EskaraX멋쟁이사자처럼</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="icon" type="image/ico" href="assets/favicon.png"/>
+  
+<SCRIPT type="text/javascript">
+<!--
+function reverse_counter(){
+today = new Date();
+d_day = new Date("May 17 2016 00:00:00");
+days = (d_day - today) / 1000 / 60 / 60 / 24;
+daysRound = Math.floor(days);
+hours = (d_day - today) / 1000 / 60 / 60 - (24 * daysRound);
+hoursRound = Math.floor(hours);
+minutes = (d_day - today) / 1000 /60 - (24 * 60 * daysRound) - (60 * hoursRound);
+minutesRound = Math.floor(minutes);
+seconds = (d_day - today) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) -
+(60 * minutesRound);
+secondsRound = Math.round(seconds);
+sec = " "
+min = " "
+hr = " "
+dy = " "
+document.counter.counter_box.value =  daysRound + 
+dy + hoursRound + hr + minutesRound + min + secondsRound + sec;
+newtime = window.setTimeout("reverse_counter();", 1000);
+}
+//-->
+</script>
 </head>
-<body>
+<body style="background-color:black;" onLoad="reverse_counter();">
 
 <%= yield %>
 
