@@ -9,21 +9,27 @@
 			</button> <!-- /.navbar-toggle -->
 
 		</div> <!-- /.navbar-header -->
-
+		
+		
+<nav class="collapse navbar-collapse">
 	<ul id="headernavigation" class="nav navbar-nav">
 				<li class="active"><a href="#page-top">Home</a></li>
-				<li><a href="#store">주점 안내</a></li>
 				<li><a href="#517">5/17 화요일 lineup</a></li>	
 				<li><a href="#518">5/18 수요일 lineup</a></li>	
 				<li><a href="#519">5/19 목요일 lineup</a></li>
+				<li><a href="#store"><font color="orange">주점 안내</font></a></li>
 				<li><a href="#who">만든 사람들</a></li>
 			</ul> <!-- /.nav .navbar-nav -->
+			</nav> <!-- /.navbar-collapse  -->
 	</div><!-- /#main-menu -->
 	<!-- Main Menu End -->
 	
 
+
+
+
 	<!-- Page Top Section -->
-	<section id="page-top" class="section-style" data-background-image="images/crowd.png">
+	<section id="page-top" class="section-style" data-background-image="images/crowd.jpg">
 		<div class="pattern height-resize">
 			<div class="container">
 				<h1 class="site-title">
@@ -38,11 +44,66 @@
 					에스카라
 				</h2><!-- /.Section-title  -->
 				<div id="time_countdown" class="time-count-container">
+								<div style="width:830px; height:500px; margin: 0 auto; position:relative;">
+									<div style="display:table-cell; width:830px; height:500px; text-align:center; vertical-align: middle;">
+									   <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+									    <div id="player"></div>
+									
+									    <script>
+									    /*  // 2. This code loads the IFrame Player API code asynchronously.
+									    setTimeout(function() {
+									        player.playVideo();
+									    }, 3000);
+									      var tag = document.createElement('script');
+									
+									      tag.src = "https://www.youtube.com/iframe_api";
+									      var firstScriptTag = document.getElementsByTagName('script')[0];
+									      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+									
+									      // 3. This function creates an <iframe> (and YouTube player)
+									      //    after the API code downloads.
+									      var player;
+									      function onYouTubeIframeAPIReady() {
+									        player = new YT.Player('player', {
+									          height: '500',
+									          width: '830',
+									          videoId: 'lUZHW30gg60',
+									          events: {
+									            'onReady': onPlayerReady,
+									            'onStateChange': onPlayerStateChange
+									          }
+									        });
+									      }
+									
+									      // 4. The API will call this function when the video player is ready.
+									      function onPlayerReady(event) {
+									        event.target.playVideo();
+									      }
+									
+									      // 5. The API calls this function when the player's state changes.
+									      //    The function indicates that when playing a video (state=1),
+									      //    the player should play for six seconds and then stop.
+									      var done = false;
+									      function onPlayerStateChange(event) {
+									        if (event.data == YT.PlayerState.PLAYING && !done) {
+									          setTimeout(stopVideo);
+									          done = true;
+									        }
+									      }
+									      function stopVideo() {
+									        player.stopVideo();
+									      }
+									     */ 
+									    </script>
+										<iframe class="delayed" width="830" height="500" src="https://www.youtube.com/embed/lUZHW30gg60?autoplay=1" frameborder="0" allowfullscreen></iframe>
+									
+									</div>
+									</div>
 				
 				<!-- a href로 연결해서 날짜 클릭 시 해당일 이벤트/가수 라인업 등 정보가 나오도록 -->
 				<div class="social-btn-container">
 					<a href="#517">
-						<span class="social-btn-box">
+						<span class="social-btn-box"  >
 							<div class="info">
 								<div class="info_date">
 									17
@@ -55,10 +116,10 @@
 					</a>
 					
 					<a href="#518">
-						<span class="social-btn-box">
+						<span class="social-btn-box" >
 							<div class="info">
 								<div class="info_date">
-									<font color="orange">18</font>
+								18
 								</div>
 								<div class="info_day2">
 									WED
@@ -68,7 +129,7 @@
 					</a>
 					
 					<a href="#519">
-						<span class="social-btn-box">
+						<span class="social-btn-box"  >
 							<div class="info">
 								<div class="info_date">
 									19
@@ -86,59 +147,16 @@
 				</div><!-- /.next-section -->
 				
 			</div><!-- /.container -->
+			</div>
 		</div><!-- /.pattern -->		
 	</section><!-- /#page-top -->
 	<!-- Page Top Section  End -->
 
 <!-- Subscribe Section -->
-		<section id="store" class="section-style" data-background-image="images/background/newsletter.jpg">
-			<div class="pattern height-resize">
-				<div class="container">
-				<h3 class="section-name">
-					<span>
-						주점 안내
-					</span>
-				</h3><!-- /.section-name -->
-				<h2 class="section-title" style="font-size:30pt; margin-top:50px; color:orange;">
-						5/18 멋진 사자들의 밤
-				</h2><!-- /.Section-title  -->
-				<h3 class="section-name" style="margin-bottom:40px;">금잔디 광장의 공연이 한 눈에 내려다보이는 사자들의 주점!<br>
-				낮에는 칵테일을, 저녁에는 치킨에 소주 한 잔 하러 놀러오세요<br><br>
-				★☆★☆★☆★☆합석 200%보장★☆★☆★☆★☆</h3>
-				<p class="section-description">
-					
-						<img src="http://cafeptthumb2.phinf.naver.net/20160516_131/yoonisus_1463385005818so2dA_PNG/posters.png?type=w740">
-					
-				</p><!-- /.section-description -->
-				<h3 class="section-name" style="margin-top:70px;">
-					Location
-				</h3>
-				<p class="section-description" style="margin-top:30px">
-					<img src="http://cafeptthumb2.phinf.naver.net/20160516_267/yoonisus_1463404111590eWhYc_PNG/%C1%F6%B5%B5.png?type=w740">
-				</p>
-
-				<h3 class="section-name" style="margin-top:70px;">
-					Menu
-				</h3>
-				<p class="section-description" style="margin-top:30px">
-					<img src="http://cafeptthumb2.phinf.naver.net/20160516_149/yoonisus_1463404524798yeojy_PNG/KakaoTalk_20160516_194535934.png?type=w740">
-				</p>
-
-					
-				
-				
-					<div class="next-section">
-						<a class="go-to-who"><span></span></a>
-					</div><!-- /.next-section -->
-
-				</div><!-- /.container -->
-			</div><!-- /.pattern -->
-
-		</section><!-- /#subscribe -->
-		<!-- Subscribe Section End -->
+		
 
 	<!-- 517 Section -->
-	<section id="517" class="section-style" data-background-image="images/GLS.png">
+	<section id="517" class="section-style" data-background-image="images/GLS.jpg">
 		<div class="pattern height-resize"> 
 			<div class="container">
 				<h3 class="section-name">
@@ -154,7 +172,7 @@
 				<div class="wrapper">
 				    <nav class="tabLinks">
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										DAY TIME
@@ -166,7 +184,7 @@
 							</span><!-- DAY TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										NIGHT TIME
@@ -178,7 +196,7 @@
 							</span><!-- NIGHT TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										AFTER PARTY
@@ -322,14 +340,14 @@
 
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->
-		
+		</div>
 		
 	</section><!-- /#about -->
 	<!-- 517 Us Section End -->
 	
 	
 	<!-- 518 Section -->
-	<section id="518" class="section-style" data-background-image="images/GLS.png">
+	<section id="518" class="section-style" data-background-image="images/GLS.jpg">
 		<div class="pattern height-resize"> 
 			<div class="container">
 				<h3 class="section-name">
@@ -345,7 +363,7 @@
 				<div class="wrapper">
 				    <nav class="tabLinks">
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										DAY TIME
@@ -357,7 +375,7 @@
 							</span><!-- DAY TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										NIGHT TIME
@@ -369,7 +387,7 @@
 							</span><!-- NIGHT TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										AFTER PARTY
@@ -500,14 +518,14 @@
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->
 		
-		
+		</div>
 	</section><!-- /#about -->
 	<!-- 518 Us Section End -->
 	
 	
 	
 	<!-- 519 Section -->
-	<section id="519" class="section-style" data-background-image="images/GLS.png">
+	<section id="519" class="section-style" data-background-image="images/GLS.jpg">
 		<div class="pattern height-resize"> 
 			<div class="container">
 				<h3 class="section-name">
@@ -523,7 +541,7 @@
 				<div class="wrapper">
 				    <nav class="tabLinks">
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										DAY TIME
@@ -535,7 +553,7 @@
 							</span><!-- DAY TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										NIGHT TIME
@@ -547,7 +565,7 @@
 							</span><!-- NIGHT TIME -->
 				        </a>
 				        <a href="#">
-				            <span class="social-btn-box">
+				            <span class="social-btn-box" >
 								<div class="info">
 									<div class="lineup_time">
 										AFTER PARTY
@@ -716,13 +734,58 @@
 
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->
-		
+		</div>
 		
 	</section><!-- /#about -->
 	<!-- 519 Us Section End -->
 	
 	
+<section id="store" class="section-style" data-background-image="images/background/newsletter.jpg">
+			<div class="pattern height-resize">
+				<div class="container">
+				<h3 class="section-name">
+					<span>
+						주점 안내
+					</span>
+				</h3><!-- /.section-name -->
+				<h2 class="section-title" style="font-size:30pt; margin-top:50px; color:orange;">
+						5/18 멋진 사자들의 밤
+				</h2><!-- /.Section-title  -->
+				<h3 class="section-name" style="margin-bottom:40px;">금잔디 광장의 공연이 한 눈에 내려다보이는 사자들의 주점!<br>
+				낮에는 칵테일을, 저녁에는 치킨에 소주 한 잔 하러 놀러오세요<br><br>
+				★☆★☆★☆★☆합석 200%보장★☆★☆★☆★☆</h3>
+				<p class="section-description">
+					
+						<img src="http://cafeptthumb2.phinf.naver.net/20160516_131/yoonisus_1463385005818so2dA_PNG/posters.png?type=w740">
+					
+				</p><!-- /.section-description -->
+				<h3 class="section-name" style="margin-top:70px;">
+					Location
+				</h3>
+				<p class="section-description" style="margin-top:30px">
+					<img src="http://cafeptthumb2.phinf.naver.net/20160516_267/yoonisus_1463404111590eWhYc_PNG/%C1%F6%B5%B5.png?type=w740">
+				</p>
 
+				<h3 class="section-name" style="margin-top:70px;">
+					Menu
+				</h3>
+				<p class="section-description" style="margin-top:30px">
+					<img src="images/food.jpeg" style="width:700px;">
+				</p>
+
+					
+				
+				
+					<div class="next-section">
+						<a class="go-to-who"><span></span></a>
+					</div><!-- /.next-section -->
+
+				</div><!-- /.container -->
+			</div><!-- /.pattern -->
+
+		</section><!-- /#subscribe -->
+		<!-- Subscribe Section End -->
+		
 
 
 
@@ -741,6 +804,10 @@
 					<h2 class="section-title" style="font-size:40pt">
 						멋쟁이 사자처럼 성균관대학교 4기 
 					</h2><!-- /.Section-title  -->
+					
+					<img src="images/real.png" style="margin:10px auto 0; width:100%;">
+					
+					
 					<p class="section-description">
 						
 					</p><!-- /.section-description -->
@@ -765,10 +832,7 @@
 			</p>
 		</footer>s
 		<!-- Footer Section End -->
-
-
-		<!-- jQuery Library -->
-		<script type="text/javascript" src="assets/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="assets/jquery-2.1.0.min.js"></script>
 		<!-- Modernizr js -->
 		<script type="text/javascript" src="assets/modernizr-2.8.0.min.js"></script>
 		<!-- Plugins -->
@@ -778,5 +842,6 @@
 		<!-- Custom JavaScript Functions -->
 		<script type="text/javascript" src="assets/jquery.ajaxchimp.min.js"></script>
 
-	</body>
-	</html>
+
+
+	

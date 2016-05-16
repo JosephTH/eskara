@@ -90,6 +90,7 @@ jQuery(document).ready(function($) {
 	$('.next-section .go-to-517').click(function() {
     	$('html,body').animate({scrollTop:$('#517').offset().top}, 1000);
   	});
+  	
   	$('.next-section .go-to-518').click(function() {
     	$('html,body').animate({scrollTop:$('#518').offset().top}, 1000);
   	});
