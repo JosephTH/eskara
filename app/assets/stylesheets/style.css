@@ -43,6 +43,19 @@ Tags: HTML, Template, Coming Soon, Kite
 ---------------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+/*
+ * Hanna (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Hanna';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.eot);
+  src: url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.ttf) format('truetype');
+}
 /* 1 - Import Google Font End 
 ---------------------------------------------------------------------- */
 
@@ -110,8 +123,11 @@ a:focus{
 .section-title{
 	text-align:center;
 	text-transform:uppercase;
-	font-weight:300;
+	font-weight:100;
 	font-size:80px;
+	font-family: 'Hanna';
+	
+
 }
 .section-description{
 	font-weight:300;
@@ -469,11 +485,12 @@ a:focus{
 ---------------------------------------------------------------------- */
 .site-title{
 	text-align:center;
-	font-size:66px;
-	font-family:'Pacifico';
+	font-size:40px;
+	font-family:'Helvetica';
 	margin:0 0 50px 0;
 	padding-bottom:50px;
 	position:relative;
+	color: orange;
 }
 .site-title:before,
 .site-title:after{

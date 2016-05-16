@@ -13,11 +13,11 @@
 		<nav class="collapse navbar-collapse">
 			<!-- Main navigation 아직 어떤 내용 들어가야할지 모르겠네요..! 생각나는거 다넣음-->
 			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>	
+				<li class="active"><a href="#page-top">Home</a></li>
+				<li><a href="#store">주점 안내</a></li>
 				<li><a href="#517">5/17 화요일 lineup</a></li>	
 				<li><a href="#518">5/18 수요일 lineup</a></li>	
 				<li><a href="#519">5/19 목요일 lineup</a></li>
-				<li><a href="#store">주점 안내</a></li>
 				<li><a href="#who">만든 사람들</a></li>
 			</ul> <!-- /.nav .navbar-nav -->
 		</nav> <!-- /.navbar-collapse  -->
@@ -30,15 +30,15 @@
 		<div class="pattern height-resize">
 			<div class="container">
 				<h1 class="site-title">
-					Likelion
+					Likelion <font color="white">at</font> skku
 				</h1><!-- /.site-title -->
 				<h3 class="section-name">
 					<span>
 						성균관대학교 2016 대동제
 					</span>
 				</h3><!-- /.section-name -->
-				<h2 class="section-title">
-					ESKARA
+				<h2 class="section-title" style="margin-top: 10px; margin-bottom: 60px;">
+					멋진 사자들의 밤
 				</h2><!-- /.Section-title  -->
 				<div id="time_countdown" class="time-count-container">
 				
@@ -93,6 +93,45 @@
 	</section><!-- /#page-top -->
 	<!-- Page Top Section  End -->
 
+<!-- Subscribe Section -->
+		<section id="store" class="section-style" data-background-image="images/background/newsletter.jpg">
+			<div class="pattern height-resize">
+				<div class="container">
+				<h3 class="section-name">
+					<span>
+						주점 안내
+					</span>
+				</h3><!-- /.section-name -->
+				<h2 class="section-title">
+					Our Newsletter 
+				</h2><!-- /.Section-title  -->
+				<p class="section-description">
+					Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+				</p><!-- /.section-description -->
+
+				<form class="news-letter" method="post">
+					<p class="alert-success"></p>
+					<p class="alert-warning"></p>
+
+					<div class="subscribe-hide">
+						<input class="form-control" type="email" id="subscribe-email" name="subscribe-email" placeholder="Email Address"  required>
+						<button  type="submit" id="subscribe-submit" class="btn"><i class="fa fa-envelope"></i></button>
+						<span id="subscribe-loading" class="btn"> <i class="fa fa-refresh fa-spin"></i> </span>
+						<div class="subscribe-error"></div>
+					</div><!-- /.subscribe-hide -->
+					<div class="subscribe-message"></div>
+				</form><!-- /.news-letter -->
+
+				
+					<div class="next-section">
+						<a class="go-to-who"><span></span></a>
+					</div><!-- /.next-section -->
+
+				</div><!-- /.container -->
+			</div><!-- /.pattern -->
+
+		</section><!-- /#subscribe -->
+		<!-- Subscribe Section End -->
 
 	<!-- 517 Section -->
 	<section id="517" class="section-style" data-background-image="images/GLS.png">
@@ -684,45 +723,6 @@
 
 
 
-		<!-- Subscribe Section -->
-		<section id="store" class="section-style" data-background-image="images/background/newsletter.jpg">
-			<div class="pattern height-resize">
-				<div class="container">
-				<h3 class="section-name">
-					<span>
-						주점 안내
-					</span>
-				</h3><!-- /.section-name -->
-				<h2 class="section-title">
-					Our Newsletter 
-				</h2><!-- /.Section-title  -->
-				<p class="section-description">
-					Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-				</p><!-- /.section-description -->
-
-				<form class="news-letter" method="post">
-					<p class="alert-success"></p>
-					<p class="alert-warning"></p>
-
-					<div class="subscribe-hide">
-						<input class="form-control" type="email" id="subscribe-email" name="subscribe-email" placeholder="Email Address"  required>
-						<button  type="submit" id="subscribe-submit" class="btn"><i class="fa fa-envelope"></i></button>
-						<span id="subscribe-loading" class="btn"> <i class="fa fa-refresh fa-spin"></i> </span>
-						<div class="subscribe-error"></div>
-					</div><!-- /.subscribe-hide -->
-					<div class="subscribe-message"></div>
-				</form><!-- /.news-letter -->
-
-				
-					<div class="next-section">
-						<a class="go-to-who"><span></span></a>
-					</div><!-- /.next-section -->
-
-				</div><!-- /.container -->
-			</div><!-- /.pattern -->
-
-		</section><!-- /#subscribe -->
-		<!-- Subscribe Section End -->
 
 
 			<!-- Contact Section -->
